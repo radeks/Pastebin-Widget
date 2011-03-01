@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="default.css" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+  <div id="loading_notice"><img src="ajax-loader.gif" alt="Loading..." /></div>
+  <div id="error_notice"></div>
+  <div id="url">
+    <h2>Your awesome paste has been saved!</h2>
+    <a id="url_link" target="_blank"></a><br />
+    <input type="button" id="hide_url" value="Dismiss" />
+  </div>
+  <div id="wrapper">
+    <input type="button" id="save_paste_button" value="Submit" />
+    <h1>PASTEBIN</h1>
+    <table>
+      <tr>
+        <td colspan="2">
+          <textarea id="paste_text"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="paste_format">Syntax highlighting:</label></td>
+        <td><select id="paste_format"><option value="bash">Bash</option><option value="c">C</option><option value="cpp">C++</option><option value="css">CSS</option><option value="html4strict">HTML</option><option value="java">Java</option><option value="javascript">JavaScript</option><option value="lua">Lua</option><option value="text" selected="selected">None</option><option value="perl">Perl</option><option value="php">PHP</option><option value="python">Python</option><option value="rails">Rails</option><option value="0" disabled="disabled">----------------------------</option><option value="abap">ABAP</option><option value="actionscript">ActionScript</option><option value="ada">Ada</option><option value="apache">Apache Log File</option><option value="applescript">AppleScript</option><option value="asm">ASM (NASM based)</option><option value="asp">ASP</option><option value="autoit">AutoIt</option><option value="bash">Bash</option><option value="blitzbasic">Blitz Basic</option><option value="bnf">BNF</option><option value="c">C</option><option value="c_mac">C for Macs</option><option value="csharp">C#</option><option value="cpp">C++</option><option value="caddcl">CAD DCL</option><option value="cadlisp">CAD Lisp</option><option value="cfm">ColdFusion</option><option value="css">CSS</option><option value="d">D</option><option value="delphi">Delphi</option><option value="dff">Diff</option><option value="dos">DOS</option><option value="eiffel">Eiffel</option><option value="erlang">Erlang</option><option value="fortran">Fortran</option><option value="freebasic">FreeBasic</option><option value="gml">Game Maker</option><option value="genero">Genero</option><option value="groovy">Groovy</option><option value="haskell">Haskell</option><option value="html4strict">HTML</option><option value="ini">INI file</option><option value="inno">Inno Script</option><option value="java">Java</option><option value="javascript">JavaScript</option><option value="latex">Latex</option><option value="lsl2">Linden Scripting Language</option><option value="lisp">Lisp</option><option value="lua">Lua</option><option value="m68k">M68000 Assembler</option><option value="matlab">MatLab</option><option value="matlab">MatLab</option><option value="mirc">mIRC</option><option value="mpasm">MPASM</option><option value="mysql">MySQL</option><option value="text">None</option><option value="nsis">NullSoft Installer</option><option value="objc">Objective C</option><option value="ocaml">OCaml</option><option value="oobas">Openoffice.org BASIC</option><option value="oracle8">Oracle 8</option><option value="pascal">Pascal</option><option value="perl">Perl</option><option value="php">PHP</option><option value="plswl">PL/SQL</option><option value="python">Python</option><option value="qbasic">QBasic/QuickBASIC</option><option value="rails">Rails</option><option value="robots">Robots</option><option value="ruby">Ruby</option><option value="scheme">Scheme</option><option value="smalltalk">Smalltalk</option><option value="smarty">Smarty</option><option value="sql">SQL</option><option value="tcl">TCL</option><option value="tcl">TCL</option><option value="unreal">unrealScript</option><option value="vbnet">VB.NET</option><option value="vb">VisualBasic</option><option value="visualfoxpro">VisualFoxPro</option><option value="xml">XML</option><option value="z80">Z80 Assembler</option></select></td>
+      </tr>
+      <tr>
+        <td><label for="paste_expire_date">Post expiration:</label></td>
+        <td><select id="paste_expire_date"><option value="N">Never</option><option value="10M">10 Minutes</option><option value="1H">1 Hour</option><option value="1D">1 Day</option><option value="1M">1 Month</option></select></td>
+      </tr>
+      <tr>
+        <td><label for="paste_private">Post exposure:</label></td>
+        <td><select name="paste_private"><option value="0">Public</option><option value="1">Private</option></select></td>
+      </tr>
+      <!--<tr>
+        <td><label for="paste_subdomain">Subdomain:</label></td>
+        <td><input type="text" id="paste_subdomain" size="20" value="" /></td>
+      </tr>-->
+      <tr>
+        <td><label for="paste_name">Name:</label></td>
+        <td><input type="text" id="paste_name" size="20" value="" /></td>
+      </tr>
+      <tr>
+        <td><label for="paste_username">Username:</label></td>
+        <td><input type="text" id="paste_username" size="20" value="" placeholder="optional" /></td>
+      </tr>
+      <tr>
+        <td><label for="paste_password">Password:</label></td>
+        <td><input type="password" id="paste_password" size="20" value="" placeholder="optional" /></td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

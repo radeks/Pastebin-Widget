@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowNetworkAccess</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>Pastebin</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.rsonic.widgets.pastebin</string>
+	<key>CFBundleName</key>
+	<string>Pastebin</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.1</string>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>CloseBoxInsetX</key>
+	<integer>5</integer>
+	<key>CloseBoxInsetY</key>
+	<integer>5</integer>
+	<key>Width</key>
+	<integer>480</integer>
+	<key>Height</key>
+	<integer>320</integer>
+	<key>MainHTML</key>
+	<string>pastebin.html</string>
+</dict>
+</plist>

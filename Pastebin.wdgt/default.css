@@ -1,0 +1,20 @@
+body { font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Sans, Sans-Serif; font-size: 10pt; margin: 2px; }
+#wrapper, #loading_notice, #error_notice, #url { -webkit-border-radius: 15px; width: 432px; height: 272px; padding: 20px; color: #FFF; }
+#wrapper { background: url(bg_header.jpg); }
+
+h1 { margin: 0px; font-size: 16pt; color: #FFF; letter-spacing: 3px; text-shadow: #000 0 -1px 0; }
+
+#save_paste_button { float: right; }
+
+table { width: 100%; }
+#paste_text { width: 100%; height: 80px; }
+
+#loading_notice, #error_notice, #url { display: none; background-color: #000; z-index: 100000; position: absolute; padding: auto; text-align: center; }
+#loading_notice img { margin-top: 120px; }
+
+#error_notice { background-color: #F00; }
+#url, #error_notice { padding-top: 40px; height: 252px; color: #FFF; }
+
+#url a { color: #FFF; cursor: pointer;  margin: 4px; }
+
+td:first-child { text-align: right; }
